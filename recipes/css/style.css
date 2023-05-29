@@ -1,0 +1,45 @@
+body {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    background: lightgray;
+}
+
+h1 {
+    font-size: 40px;
+    color: dodgerblue;
+}
+
+img {
+    border-radius: 50%;
+}
+
+h2 {
+    color: dodgerblue;
+}
+
+ul {
+    list-style-type: none;
+    list-style-position: inside;
+}
+
+ol {
+    list-style-position: inside;
+}
+
+a {
+    text-decoration: none;
+    color: hotpink;
+}
+
+a:hover {
+    color: rgba(255, 105, 180, 0.449);
+    text-decoration: underline;
+}
+
+.container {
+    border: solid 5px;
+    margin: auto;
+    max-width: 600px;
+    font-size: 1.1rem;
+    background-color: whitesmoke;
+}
