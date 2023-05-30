@@ -1,45 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap');
+
+html {
+    overscroll-behavior: none;
+}
+
 body {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
-    background: lightgray;
+    background-image: linear-gradient(to right bottom, dodgerblue, rgba(30, 143, 255, 0.87), rgba(30, 143, 255, 0.576), rgba(30, 143, 255, 0.407), rgba(30, 143, 255, 0.112));
 }
 
 h1 {
-    font-size: 40px;
-    color: dodgerblue;
+    font-family: 'Monsieur La Doulaise', cursive;
+    font-size: 90px;
+    color: black;
+    max-width: 600px;
+    margin: auto;
 }
 
 img {
+    border: 5px solid;
     border-radius: 50%;
+    margin-top: 1rem;
 }
 
 h2 {
-    color: dodgerblue;
+    font-family: 'Monsieur La Doulaise', cursive;
+    color: black;
+    font-size: 40px;
+    border-radius: 1rem;
+    max-width: 400px;
+    margin: auto;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    
 }
 
 ul {
     list-style-type: none;
-    list-style-position: inside;
+}
+
+.recipe-list {
+    display: inline-block;
+}
+
+.recipe-list img {
+    border-radius: 15%;
+    text-decoration: none;
+    border: solid 5px black;
+}
+
+.recipe-list:hover {
+    transform: scale(1.2);
 }
 
 ol {
     list-style-position: inside;
 }
 
-a {
-    text-decoration: none;
-    color: hotpink;
-}
-
-a:hover {
-    color: rgba(255, 105, 180, 0.449);
-    text-decoration: underline;
-}
-
 .container {
-    border: solid 5px;
-    margin: auto;
-    max-width: 600px;
+    border-radius: 1rem;
+    margin: 0;
+    padding: 0;
     font-size: 1.1rem;
-    background-color: whitesmoke;
+    background-color: lightgray;
+    opacity: ;
 }
